@@ -1,0 +1,18 @@
+{
+  "name": "shoppy-extension-deploy",
+  "version": "1.0.0",
+  "description": "Chrome Extension deployment scripts",
+  "main": "scripts/setup-keys.js",
+  "scripts": {
+    "setup-keys": "node scripts/setup-keys.js",
+    "build-crx": "node scripts/build-crx.js",
+    "generate-xml": "node scripts/generate-update-xml.js"
+  },
+  "dependencies": {
+    "archiver": "^6.0.1",
+    "node-forge": "^1.3.1"
+  },
+  "devDependencies": {},
+  "author": "Shoppy Extension Team",
+  "license": "MIT"
+}
